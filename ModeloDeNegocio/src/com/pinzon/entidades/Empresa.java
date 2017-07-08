@@ -2,6 +2,7 @@ package com.pinzon.entidades;
 
 public abstract class Empresa {
 
+	//Esta clase es abstracta y no puede instanciarse.
 	String nombre;
 	String cuit;
 	String direccion;

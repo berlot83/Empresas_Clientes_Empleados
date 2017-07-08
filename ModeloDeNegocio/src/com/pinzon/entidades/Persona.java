@@ -2,6 +2,7 @@ package com.pinzon.entidades;
 
 public abstract class Persona {
 	
+	//No es posible instanciar esta clase ya que es abstracta.
 	String nombre;
 	String apellido;
 	boolean sexo;
@@ -43,5 +44,8 @@ public abstract class Persona {
 		public void setDireccion(String direccion) {
 			this.direccion = direccion;
 		}
+		
+		//La aplicación del método es similar al de la interface con algunas diferencias
+		abstract boolean contratar(int identificador);
 
 }
